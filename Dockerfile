@@ -1,6 +1,6 @@
-FROM tomcat:latest
+FROM  docker.io/library/tomcat:latest
 
-LABEL maintainer="Nidhi Gupta"
+LABEL maintainer="Ravi Malvia"
 
 ADD ./target/LoginWebApp-1.war /usr/local/tomcat/webapps/
 
